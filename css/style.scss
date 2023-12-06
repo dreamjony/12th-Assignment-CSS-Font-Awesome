@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,21,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 36px; 
+    font-weight: 700;
+    color: #4CAF50; 
+    margin-top: 20px;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.8560003698224852) 51%, rgba(252, 176, 69, 1) 100%);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.5s;
+}
+
+.social-icons a:hover {
+    background: linear-gradient(90deg, rgba(253, 29, 29, 0.8560003698224852) 0%, rgba(131, 58, 180, 1) 51%, rgba(252, 176, 69, 1) 100%);
+}
